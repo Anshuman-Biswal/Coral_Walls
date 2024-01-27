@@ -1,0 +1,224 @@
+body {
+    background-color: white;
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 40px 0;
+}
+/* @media(max-width: 1200px) {
+    body {
+    padding: 199px 0 !important;
+}
+} */
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 50px 50px 0px 50px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding: 30px !important;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    .tz-gallery {
+    padding: 30px !important;
+}
+}
+
+
+
+
+
+.navbar-brand {
+    padding: 0px 15px;
+}
+
+.navbar-toggle {
+    margin: 8px 15px;
+}
+
+/* .navbar-header {
+    float: none;
+} */
+
+.navbar.navbar-fixed-top {
+    background-color: white;
+    border-color: #333;
+    border-radius: 0;
+}
+
+.navbar-toggle {
+    background-color: white;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    background-color: white;
+}
+
+.navbar-nav {
+    margin: 0;
+    float: left;
+    margin: 39.5px 211px 30.5px 0px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-nav.navbar-right {
+    float: right !important;
+}
+
+.navbar-nav.navbar-right > li {
+    margin-right: 0;
+}
+
+.navbar-nav.navbar-right > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background-color: #333;
+}
+@media (max-width: 767px) {
+    .navbar-nav {
+        margin: 0;
+        float: none;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+    }
+
+    .navbar-header img{
+        height: 50px !important;
+        margin-left: -200px !important;
+    }
+
+    .navbar-nav.navbar-right {
+        float: none !important;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navbar-nav.navbar-right > li {
+        margin-right: 0;
+    }
+
+    .social-icons {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .social-icons a {
+        display: inline-block;
+        /* margin: 0 8px; */
+        color: #fff;
+    }
+        .container.gallery-container {
+            background-color: #fff;
+            color: #35373a;
+            min-height: 100vh;
+            padding: 0px;
+        }
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 2px 7px;
+}
+.nav1>li>a {
+    position: relative;
+    display: block;
+    padding: 2px 20px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+    font-size: 20px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    opacity: 0.7;
+    color: black;
+}
